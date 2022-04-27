@@ -1,0 +1,20 @@
+#diagram-container {
+  flex-direction: column;
+}
+
+#diagram-container .dib {
+  display:block;
+  margin-top:10px;
+}
+
+#diagram-container div[successors], #diagram-container div[pipeline] {
+  margin-top:10px;
+}
+#diagram-container div[pipeline-container] {
+  margin-top:10px;
+}
+.wf-pipeline-has-switch::before,
+.wf-switch-item-selected::after {
+  display:none;
+}
+
