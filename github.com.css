@@ -1,0 +1,18 @@
+.discussion-sidebar-item summary.btn-link.Link--muted {
+    background-color: #238636;
+    padding: 6px 15px;
+    color: #ffffff;
+    font-weight:bold;
+    border-radius:45px;
+    transition: background-color 200ms ease;
+}
+
+.discussion-sidebar-item summary.btn-link.Link--muted:hover {
+    background-color: #359547;
+}
+
+.discussion-sidebar-item span {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
